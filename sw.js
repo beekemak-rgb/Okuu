@@ -1,5 +1,5 @@
 /* Окуучунун дептери: офлайн-режим. При обновлении сайта поменяйте номер версии. */
-const V = 'depter-v1';
+const V = 'depter-v2';
 const FONTS = 'depter-fonts';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './favicon.svg', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
