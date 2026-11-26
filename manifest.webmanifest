@@ -1,0 +1,30 @@
+{
+ "name": "Окуучунун дептери",
+ "short_name": "Дептер",
+ "description": "Билим, амал жана жүрөк: окуу, намаз, жаттоо жана мухасаба",
+ "lang": "ky",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#1f3f99",
+ "theme_color": "#1f3f99",
+ "icons": [
+  {
+   "src": "icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "icons/icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
