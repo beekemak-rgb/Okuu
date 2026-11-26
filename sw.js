@@ -1,7 +1,7 @@
 /* Окуучунун дептери: офлайн-режим. При обновлении сайта поменяйте номер версии. */
 const V = 'depter-v1';
 const FONTS = 'depter-fonts';
-const SHELL = ['./', './index.html', './manifest.webmanifest', './favicon.svg', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
+const SHELL = ['./', './index.html', './manifest.webmanifest', './favicon.svg', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(V).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
